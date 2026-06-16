@@ -1,0 +1,386 @@
+[
+  {
+    "text": "Which of the following is used for dynamic memory allocation in C++?",
+    "options": ["malloc()", "alloc()", "new", "create()"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which feature supports polymorphism in C++?",
+    "options": ["Encapsulation", "Inheritance", "Virtual functions", "Abstraction"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "What is the correct way to declare a class in C++?",
+    "options": [
+      "class MyClass {}",
+      "class MyClass();",
+      "MyClass class {}",
+      "class MyClass[]"
+    ],
+    "correctAnswerIndex": 0
+  },
+
+    {
+      "text": "Which of the following is the correct way to declare a pointer in C++?",
+      "options": ["int ptr;", "int *ptr;", "ptr int;", "*int ptr;"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "What is the output of the following code?\n\nint a = 5;\ncout << ++a << endl;",
+      "options": ["5", "6", "Undefined", "Compilation Error"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Which header file is required to use cout in C++?",
+      "options": ["<iostream>", "<stdio.h>", "<conio.h>", "<stdlib.h>"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "What keyword is used to define a constant variable in C++?",
+      "options": ["constant", "const", "final", "immutable"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Which of the following is NOT a valid C++ access specifier?",
+      "options": ["public", "private", "protected", "internal"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "text": "What is the correct syntax for creating an object of a class named 'Car'?",
+      "options": ["Car obj;", "Car obj = new Car();", "Car obj = Car();", "new Car obj;"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which operator is used to access members of a pointer to a class or struct?",
+      "options": [".", "->", "*", "&"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Which of these is the correct way to declare a virtual function?",
+      "options": ["virtual void func();", "void virtual func();", "void func() virtual;", "virtual func();"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which of the following is the correct way to handle exceptions in C++?",
+      "options": ["try-catch", "throw-catch", "catch-try", "handle-exception"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "What does the keyword 'friend' do in a C++ class?",
+      "options": [
+        "Declares a function or class as a friend to access private members",
+        "Defines a friend class for inheritance",
+        "Creates a global function",
+        "Marks a class as deprecated"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which of these correctly overloads the '==' operator?",
+      "options": [
+        "bool operator==(const ClassName &obj);",
+        "bool operator== ClassName();",
+        "operator==(ClassName obj);",
+        "bool operator==() const;"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "How do you declare a template function in C++?",
+      "options": [
+        "template<typename T> void func(T a);",
+        "template func<T>(T a);",
+        "void func(template T a);",
+        "function template <T> void func(T a);"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "What is the size of a pointer in a 64-bit system?",
+      "options": ["4 bytes", "8 bytes", "2 bytes", "Depends on the compiler"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "What will be the output of the following code?\n\nint x = 10;\nint &ref = x;\nref = 20;\ncout << x << endl;",
+      "options": ["10", "20", "Compilation Error", "Undefined"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Which of the following is the correct way to allocate memory dynamically in C++?",
+      "options": ["int *ptr = new int;", "int *ptr = malloc(sizeof(int));", "int ptr = new int;", "int *ptr = allocate int;"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "What does the 'delete' operator do?",
+      "options": [
+        "Frees memory allocated with new",
+        "Deletes a variable",
+        "Frees memory allocated on the stack",
+        "Deletes a file"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which of the following correctly initializes an array of integers?",
+      "options": [
+        "int arr[5] = {1, 2, 3, 4, 5};",
+        "int arr = {1, 2, 3, 4, 5};",
+        "int arr[] = (1, 2, 3, 4, 5);",
+        "int arr[5] = (1, 2, 3, 4, 5);"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which of the following keywords prevents a function from modifying class members?",
+      "options": ["mutable", "const", "static", "volatile"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "What will be the output of the following code?\n\ncout << sizeof(char) << endl;",
+      "options": ["1", "2", "4", "Depends on compiler"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which operator is used for scope resolution in C++?",
+      "options": ["::", ".", "->", ":"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which of these correctly declares a reference variable in C++?",
+      "options": ["int &ref = var;", "int *ref = var;", "int ref = &var;", "int ref = var;"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "What is the default access specifier for members of a class in C++?",
+      "options": ["public", "private", "protected", "internal"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Which of the following is a valid way to call a constructor in C++?",
+      "options": ["ClassName obj;", "ClassName obj = ClassName();", "new ClassName();", "All of the above"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "text": "What keyword is used to inherit from a base class publicly?",
+      "options": ["public", "private", "protected", "inherit"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which of the following is true about destructors in C++?",
+      "options": [
+        "They have the same name as the class with a tilde (~) prefix",
+        "They cannot be overloaded",
+        "They don't take any parameters",
+        "All of the above"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "text": "What will be the output of this code?\n\nint a = 5, b = 10;\ncout << (a > b ? a : b);",
+      "options": ["5", "10", "true", "false"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Which container is used in the Standard Template Library (STL) to store elements in a FIFO order?",
+      "options": ["stack", "queue", "vector", "list"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "What does RAII stand for in C++?",
+      "options": [
+        "Resource Acquisition Is Initialization",
+        "Random Access Is Important",
+        "Resource Allocation Is Immediate",
+        "Run-time Allocation Is Incomplete"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which function is automatically called when an object goes out of scope?",
+      "options": ["Constructor", "Destructor", "Copy constructor", "Operator overload"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "What does the 'mutable' keyword allow in C++?",
+      "options": [
+        "Modifying a member of a const object",
+        "Modifying a static member",
+        "Declaring a pointer",
+        "Allowing inheritance"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which of the following is a smart pointer introduced in C++11?",
+      "options": ["std::unique_ptr", "std::raw_ptr", "std::weak_ptr", "std::shared_raw"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "What will be the output of this code?\n\nstd::cout << (5 / 2);",
+      "options": ["2", "2.5", "3", "Compilation error"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which of the following correctly declares a pure virtual function?",
+      "options": [
+        "virtual void func() = 0;",
+        "void virtual func() = 0;",
+        "virtual void func() override;",
+        "virtual pure func();"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "How can you prevent a class from being inherited in C++11 and later?",
+      "options": [
+        "Using the 'final' keyword",
+        "Using the 'sealed' keyword",
+        "Using the 'noinherit' keyword",
+        "It's not possible"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "Which of the following is a valid way to declare a namespace in C++?",
+      "options": [
+        "namespace MyNamespace {}",
+        "namespace MyNamespace();",
+        "namespace:MyNamespace {}",
+        "namespace = MyNamespace {}"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "What is the size of an empty class in C++?",
+      "options": ["0 bytes", "1 byte", "Depends on compiler", "Undefined"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "text": "Which operator is used to allocate an array dynamically?",
+      "options": ["new[]", "new()", "malloc()", "alloc[]"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "What does the keyword 'explicit' do when applied to a constructor?",
+      "options": [
+        "Prevents implicit conversions",
+        "Allows multiple constructors",
+        "Marks the constructor as deprecated",
+        "Enables inheritance"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "text": "What type of inheritance is allowed in C++?",
+      "options": ["Single", "Multiple", "Multilevel", "All of the above"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "text": "What will be the output of the following code?\n\nstd::cout << (true && false);",
+      "options": ["1", "0", "true", "false"],
+      "correctAnswerIndex": 1
+    },
+    {
+    "text": "Which of the following casts is safest in C++?",
+    "options": ["static_cast", "reinterpret_cast", "const_cast", "dynamic_cast"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which keyword is used to inherit from a class privately?",
+    "options": ["inherit", "protected", "private", "using"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which C++ feature allows the same function name to be used for different types?",
+    "options": ["Inheritance", "Encapsulation", "Function overloading", "Templates"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which function is called when an object is copied?",
+    "options": ["Constructor", "Destructor", "Copy constructor", "Assignment operator"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which operator is overloaded to provide object assignment?",
+    "options": ["==", "=", "()", "[]"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of the following is not a C++ storage class?",
+    "options": ["auto", "register", "static", "define"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which of these features is not supported directly by C++?",
+    "options": ["Garbage Collection", "Operator Overloading", "Templates", "Inheritance"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which container in STL allows fast insertion/deletion at both ends?",
+    "options": ["vector", "deque", "set", "map"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What will be the output of:\n\nint a = 10;\na += 5;\ncout << a;",
+    "options": ["10", "15", "5", "Compile Error"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of the following is not a loop construct in C++?",
+    "options": ["for", "while", "foreach", "do-while"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "What is the use of 'typeid' operator in C++?",
+    "options": ["Type casting", "Type checking at runtime", "Function overloading", "Memory allocation"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which container does not allow duplicate keys?",
+    "options": ["map", "multimap", "unordered_multimap", "multiset"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these is not a valid STL container?",
+    "options": ["list", "vector", "hash", "deque"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which algorithm is used to sort elements in STL?",
+    "options": ["sort()", "order()", "arrange()", "organize()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What is the output of:\n\nint x = 3;\ncout << (x << 1);",
+    "options": ["6", "2", "4", "1"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What is the default return type of 'main()' in C++?",
+    "options": ["int", "void", "float", "None"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which header defines the standard exception classes?",
+    "options": ["<iostream>", "<stdexcept>", "<exception>", "<error.h>"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which function is used to allocate memory in C-style in C++?",
+    "options": ["malloc()", "new", "calloc()", "Both A and C"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which of the following is not a valid function specifier in C++?",
+    "options": ["inline", "virtual", "explicit", "constant"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which concept helps in achieving compile-time polymorphism?",
+    "options": ["Virtual Functions", "Function Overriding", "Function Overloading", "Inheritance"],
+    "correctAnswerIndex": 2
+  }
+]
+
+
+

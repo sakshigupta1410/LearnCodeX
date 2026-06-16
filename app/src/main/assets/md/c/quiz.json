@@ -1,0 +1,398 @@
+[
+  {
+    "text": "Which of these is the correct way to declare a pointer in C?",
+    "options": ["int ptr;", "int *ptr;", "ptr int;", "*int ptr;"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What is the size of a char in C?",
+    "options": ["1 byte", "2 bytes", "4 bytes", "Depends on the system"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which header file is required for printf() in C?",
+    "options": ["stdio.h", "stdlib.h", "string.h", "math.h"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What is the default return type of a function in C if none is specified?",
+    "options": ["int", "void", "char", "float"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which operator is used to access the value pointed by a pointer?",
+    "options": ["&", "*", "%", "->"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of the following is not a valid variable name in C?",
+    "options": ["int_var", "var123", "3var", "_var"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "What does the '++' operator do?",
+    "options": ["Decrements a value", "Increments a value", "Assigns a value", "Compares two values"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "How do you declare an array of 10 integers?",
+    "options": ["int arr[10];", "int arr;", "array arr[10];", "int arr = 10;"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which loop executes at least once regardless of the condition?",
+    "options": ["for loop", "while loop", "do-while loop", "foreach loop"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which of these is not a storage class specifier in C?",
+    "options": ["auto", "extern", "register", "mutable"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "What is the size of an int in most 32-bit systems?",
+    "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which of these is a correct comment in C?",
+    "options": ["/* Comment */", "// Comment", "# Comment", "Both A and B"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which keyword is used to define a constant in C?",
+    "options": ["const", "final", "constant", "immutable"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What is the output of 'printf(\"%d\", sizeof(char));'?",
+    "options": ["1", "2", "4", "Depends on the system"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of the following is a bitwise operator in C?",
+    "options": ["&&", "||", "&", "=="],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "What does the 'break' statement do in a loop?",
+    "options": ["Skips current iteration", "Exits the loop", "Pauses the loop", "Restarts the loop"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "How do you declare a function in C that takes no arguments and returns nothing?",
+    "options": ["void function();", "int function();", "function void();", "void function(void);"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which of these is the correct way to allocate memory dynamically?",
+    "options": ["malloc()", "alloc()", "new", "calloc()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which function is used to free dynamically allocated memory?",
+    "options": ["delete()", "free()", "release()", "dispose()"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which symbol is used to get the address of a variable?",
+    "options": ["*", "&", "%", "$"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of the following is a valid identifier?",
+    "options": ["1var", "var_name", "var-name", "var name"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What will 'printf(\"%d\", 10 / 4);' output?",
+    "options": ["2", "2.5", "3", "Error"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What is the output of 'printf(\"%d\", 5 % 2);'?",
+    "options": ["2", "1", "0", "3"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which header file contains the function 'malloc()'?",
+    "options": ["stdlib.h", "stdio.h", "string.h", "math.h"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these loops is entry-controlled?",
+    "options": ["for", "while", "do-while", "both A and B"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "What is a null pointer in C?",
+    "options": ["Pointer to memory address 0", "Pointer with garbage value", "Pointer to a valid object", "Pointer to a function"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What does the 'sizeof' operator return?",
+    "options": ["Size in bits", "Size in bytes", "Number of elements", "Memory address"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of the following is used to read a character from standard input?",
+    "options": ["scanf(\"%c\", &ch);", "gets()", "putchar()", "printf()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which function is used to print a string?",
+    "options": ["puts()", "gets()", "scanf()", "printf()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which keyword is used to stop the execution of a loop and jump to the next iteration?",
+    "options": ["break", "continue", "stop", "return"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "How do you declare a structure in C?",
+    "options": ["struct { int x; };", "structure { int x; };", "class { int x; };", "struct x { int y; };"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What is the correct way to access a member of a structure pointer?",
+    "options": ["ptr.member", "ptr->member", "*ptr.member", "&ptr.member"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of the following is true about 'enum' in C?",
+    "options": ["Defines a new data type", "Defines constants", "Both A and B", "None of the above"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "What will be the output of 'printf(\"%d\", 1 && 0);'?",
+    "options": ["1", "0", "Error", "Depends on compiler"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of these functions is used to copy a string in C?",
+    "options": ["strcpy()", "strlen()", "strcmp()", "strcat()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these functions returns the length of a string?",
+    "options": ["strlen()", "strcpy()", "strcmp()", "strcat()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which operator is used to concatenate strings in C?",
+    "options": ["+", "concat()", "strcat()", "&"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which function is used to compare two strings?",
+    "options": ["strcmp()", "strcpy()", "strlen()", "strcat()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of the following is a correct way to declare a pointer to a function?",
+    "options": ["int (*funcPtr)();", "int funcPtr();", "int *funcPtr();", "int &funcPtr();"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these can cause a segmentation fault?",
+    "options": ["Dereferencing NULL pointer", "Accessing array within bounds", "Correct pointer arithmetic", "Using malloc properly"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What is the purpose of the 'typedef' keyword?",
+    "options": ["Create new data types", "Create aliases for existing types", "Declare variables", "None of the above"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of these data types is not a standard C type?",
+    "options": ["int", "float", "string", "double"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which of these is the correct way to write an if statement?",
+    "options": ["if(x>0) {}", "if x>0 {}", "if x > 0 then {}", "if (x > 0) {}"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which operator has the highest precedence?",
+    "options": ["+", "*", "()", "=="],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which is a logical AND operator in C?",
+    "options": ["&", "&&", "|", "||"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What is the output of 'printf(\"%d\", 'A');'?",
+    "options": ["65", "A", "Error", "Depends on compiler"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What will be the output of 'printf(\"%d\", 10 && 5);'?",
+    "options": ["0", "1", "5", "10"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of these is the correct way to declare a two-dimensional array?",
+    "options": ["int arr[2][3];", "int arr[3][2];", "int arr[];", "int arr[2];"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of the following cannot be used as an array size?",
+    "options": ["Constant", "Variable", "Macro", "Literal"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What is the value of an uninitialized local variable?",
+    "options": ["0", "NULL", "Garbage value", "Depends on compiler"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which of the following correctly defines a pointer to an integer?",
+    "options": ["int *p;", "int p*;", "pointer int p;", "int &p;"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these keywords is used to prevent a variable from being changed?",
+    "options": ["constant", "const", "immutable", "static"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of the following is used to start the main function in C?",
+    "options": ["void main()", "int main()", "main()", "start()"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What does 'void' mean in a function declaration?",
+    "options": ["Returns nothing", "Returns an integer", "Takes no arguments", "Returns a pointer"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which header file defines the NULL macro?",
+    "options": ["stddef.h", "stdio.h", "stdlib.h", "string.h"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of the following is not a loop in C?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which of these is used to declare a variable that retains its value between function calls?",
+    "options": ["static", "auto", "extern", "register"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these keywords is used for dynamic memory allocation?",
+    "options": ["malloc", "new", "alloc", "create"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these functions reads a line of text from the standard input?",
+    "options": ["gets()", "scanf()", "fgets()", "readline()"],
+    "correctAnswerIndex": 2
+  },
+
+  {
+    "text": "Which of the following is a valid C function declaration?",
+    "options": ["function int();", "int function();", "declare function();", "void int();"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which function is used to close a file in C?",
+    "options": ["fclose()", "closefile()", "fileclose()", "endfile()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What is the purpose of 'fopen()' in C?",
+    "options": ["Open a file", "Read a character", "Write output", "Close a file"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What is the default value of a static local variable?",
+    "options": ["0", "NULL", "Garbage", "Depends on compiler"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What does the 'extern' keyword in C specify?",
+    "options": ["Variable is local", "Variable is global", "Variable is external", "Variable is static"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "What is the result of 5 >> 1 in C?",
+    "options": ["2", "3", "10", "1"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which operator is used to perform a logical NOT in C?",
+    "options": ["~", "!", "not", "&&"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What is the maximum number of elements in a C array defined as 'int arr[10];'?",
+    "options": ["9", "10", "11", "Undefined"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which function is used to move the file pointer to a specific location?",
+    "options": ["fmove()", "fseek()", "fgo()", "movefile()"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of the following is used to write formatted data to a string?",
+    "options": ["sprintf()", "printf()", "fprintf()", "scanf()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these conversions is valid in C?",
+    "options": ["float to int", "char to int", "int to float", "All of the above"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "What is the output of 'printf(\"%c\", 65);'?",
+    "options": ["A", "65", "Error", "a"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which escape character is used to print a tab?",
+    "options": ["\\n", "\\r", "\\b", "\\t"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which of these is the correct syntax for a ternary operator?",
+    "options": ["condition ? expr1 : expr2", "if ? then : else", "condition : expr1 ? expr2", "expr1 ? expr2 : condition"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which data type is most suitable for storing a 10-digit phone number?",
+    "options": ["int", "long", "float", "char[]"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which format specifier is used for printing unsigned int?",
+    "options": ["%d", "%u", "%f", "%x"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of these operators is used for bitwise OR?",
+    "options": ["|", "||", "&", "&&"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which library function is used to convert a string to an integer?",
+    "options": ["strint()", "atoi()", "strtoint()", "convert()"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What does 'return 0;' indicate in the main function?",
+    "options": ["Error occurred", "Successful execution", "False condition", "End of loop"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What does the 'static' keyword mean for a global variable?",
+    "options": ["It is shared across files", "It has file scope", "It is dynamic", "It is garbage-collected"],
+    "correctAnswerIndex": 1
+  }
+]

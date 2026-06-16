@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LearnCodeX</string>
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+    <string name="open">Open drawer</string>
+    <string name="close">Close drawer</string>
+
+</resources>

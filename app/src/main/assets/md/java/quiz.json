@@ -1,0 +1,339 @@
+[
+  {
+    "text": "Which of these is the correct way to declare a variable in Java?",
+    "options": ["int 1var;", "int var1;", "var int;", "int-var;"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which keyword is used to inherit a class in Java?",
+    "options": ["implement", "inherits", "extends", "super"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "What is the size of an int variable in Java?",
+    "options": ["2 bytes", "4 bytes", "8 bytes", "Depends on JVM"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which method is the entry point of a Java application?",
+    "options": ["main()", "start()", "init()", "run()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these is not a Java keyword?",
+    "options": ["static", "Boolean", "void", "new"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of these data types is not primitive in Java?",
+    "options": ["int", "char", "String", "boolean"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "What is the default value of a boolean variable in Java?",
+    "options": ["true", "false", "0", "null"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which package is automatically imported in every Java program?",
+    "options": ["java.lang", "java.util", "java.io", "java.net"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which keyword is used to prevent method overriding?",
+    "options": ["final", "static", "abstract", "private"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these is used to handle exceptions in Java?",
+    "options": ["try-catch", "if-else", "switch", "for loop"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "How do you create an object of a class in Java?",
+    "options": ["Class obj = new Class();", "Class obj();", "new Class obj;", "obj = Class();"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of the following is an interface in Java?",
+    "options": ["class", "implements", "interface", "extends"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "What is the output of 'System.out.println(10 + 20 + \"30\");'?",
+    "options": ["3030", "102030", "3030", "3030"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these keywords is used to define a constant in Java?",
+    "options": ["constant", "const", "final", "static"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which access modifier makes a member visible only within its own package?",
+    "options": ["private", "protected", "public", "default (no modifier)"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which method is used to compare two strings for equality in Java?",
+    "options": ["equals()", "==", "compare()", "match()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which loop is guaranteed to execute at least once?",
+    "options": ["for", "while", "do-while", "foreach"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which of these is not a valid Java identifier?",
+    "options": ["_var", "$var", "var123", "123var"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which of these is used for method overloading?",
+    "options": ["Same method name, different parameters", "Same method name, same parameters", "Different method name, same parameters", "Different method name, different parameters"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which exception is thrown when accessing an invalid array index?",
+    "options": ["NullPointerException", "ArrayIndexOutOfBoundsException", "IllegalArgumentException", "ArithmeticException"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What is the superclass of all classes in Java?",
+    "options": ["Object", "Class", "Super", "Root"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which keyword is used to implement an interface?",
+    "options": ["extends", "implements", "inherits", "uses"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of the following is a wrapper class in Java?",
+    "options": ["int", "Integer", "double", "float"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of these is the correct syntax to declare an array?",
+    "options": ["int[] arr;", "int arr[];", "Both A and B", "None of the above"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "What does the 'static' keyword mean?",
+    "options": ["Instance-level member", "Class-level member", "Local variable", "Final variable"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What is the result of 5 / 2 in Java integer division?",
+    "options": ["2", "2.5", "3", "Error"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which method is used to start a thread in Java?",
+    "options": ["run()", "start()", "init()", "execute()"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which keyword is used to declare a package?",
+    "options": ["package", "import", "include", "namespace"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of the following statements about constructors is false?",
+    "options": ["Constructors have the same name as the class", "Constructors have no return type", "Constructors can be inherited", "Constructors can be overloaded"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which of the following is a checked exception?",
+    "options": ["ArithmeticException", "IOException", "NullPointerException", "ArrayIndexOutOfBoundsException"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which method converts a string to an integer in Java?",
+    "options": ["Integer.parseInt()", "Integer.toString()", "String.valueOf()", "parseInt()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of the following is true about the 'final' keyword?",
+    "options": ["Variable can be modified", "Method cannot be overridden", "Class cannot be extended", "Both B and C"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which collection allows duplicate elements in Java?",
+    "options": ["Set", "List", "Map", "Queue"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What does JVM stand for?",
+    "options": ["Java Variable Machine", "Java Virtual Machine", "Java Visual Model", "Java Version Manager"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of these is not a feature of Java?",
+    "options": ["Platform independence", "Object-oriented", "Pointer arithmetic", "Multithreading"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which of these keywords is used for exception handling?",
+    "options": ["try", "catch", "finally", "All of the above"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which of these methods can be used to get the length of an array?",
+    "options": ["length()", "length", "size()", "getLength()"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which interface must a class implement to be serializable?",
+    "options": ["Serializable", "Externalizable", "Cloneable", "Comparable"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these is used to define a constant variable in Java?",
+    "options": ["final", "constant", "immutable", "const"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which access modifier makes a class member visible to all other classes?",
+    "options": ["private", "protected", "public", "default"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which statement is true about abstract classes in Java?",
+    "options": ["Cannot have constructors", "Cannot have abstract methods", "Cannot be instantiated", "All of the above"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which operator is used for string concatenation in Java?",
+    "options": ["+", "&", "concat()", "."],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these is the superclass of all exception classes?",
+    "options": ["Throwable", "Error", "Exception", "RuntimeException"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these keywords is used to create a thread in Java?",
+    "options": ["Runnable", "Thread", "start", "run"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which statement is true about Java interfaces?",
+    "options": ["Can contain implemented methods", "Cannot contain fields", "Cannot be instantiated", "All of the above"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which of the following is used to stop a thread execution?",
+    "options": ["stop()", "sleep()", "yield()", "wait()"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these methods is used to start execution of a Java thread?",
+    "options": ["run()", "start()", "execute()", "init()"],
+    "correctAnswerIndex": 1
+  },
+
+  {
+    "text": "Which keyword is used to create a subclass in Java?",
+    "options": ["super", "implements", "extends", "inherits"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which collection class does not allow duplicates?",
+    "options": ["List", "Set", "ArrayList", "Vector"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of the following is not part of the Java Collection Framework?",
+    "options": ["ArrayList", "HashSet", "Hashtable", "Array"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which exception is thrown when a null object is accessed?",
+    "options": ["NullPointerException", "IllegalArgumentException", "ClassCastException", "IOException"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of these is used to create a thread by implementing an interface?",
+    "options": ["Runnable", "Thread", "Executor", "Timer"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which of the following is a marker interface?",
+    "options": ["Serializable", "Comparable", "Runnable", "Cloneable"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What is the default value of a local variable in Java?",
+    "options": ["null", "0", "Depends on type", "It must be initialized"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "What is the use of the 'super' keyword?",
+    "options": ["To access parent class members", "To call a static method", "To override a method", "To create a new object"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "What will 'System.out.println(10 + 20 + \"Java\");' output?",
+    "options": ["30Java", "1020Java", "10Java20", "Java1020"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "text": "Which statement is used to stop the loop in Java?",
+    "options": ["stop", "exit", "break", "return"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which loop is best when the number of iterations is known?",
+    "options": ["while", "do-while", "for", "foreach"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which access modifier is most restrictive?",
+    "options": ["public", "protected", "default", "private"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "text": "Which keyword is used to create an instance of a class?",
+    "options": ["class", "object", "new", "this"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which method is called automatically when an object is garbage collected?",
+    "options": ["delete()", "destroy()", "finalize()", "dispose()"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which of these is not a primitive type in Java?",
+    "options": ["float", "boolean", "String", "char"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "Which of the following best describes encapsulation?",
+    "options": ["Using multiple classes", "Hiding data using access modifiers", "Inheritance from another class", "Overloading methods"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which Java operator is used to compare two values?",
+    "options": ["=", "==", "===", "!="],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "What is the result of: 7 % 3?",
+    "options": ["1", "2", "0", "3"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "text": "Which of these cannot be used for a switch expression in Java?",
+    "options": ["int", "String", "float", "char"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "text": "What is method overriding?",
+    "options": ["Two methods with same name and parameters in different classes", "Changing method name", "Overloading constructors", "None of the above"],
+    "correctAnswerIndex": 0
+  }
+]
+

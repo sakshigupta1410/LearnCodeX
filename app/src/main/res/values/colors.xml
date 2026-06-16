@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_200">#757575</color>
+    <color name="gray_500">#757575</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_700">#001D39</color> <!-- Or use your brand color -->
+    <color name="gray">#757575</color> <!-- Medium gray -->
+    <color name="icon_tint_gray">#666666</color>
+   <color name="Blues">#1A3D36</color>
+    <color name="head_blue">#4E8EA2</color>
+
+</resources>

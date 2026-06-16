@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Center container -->
+    <LinearLayout
+        android:id="@+id/centerContainer"
+        android:layout_width="321dp"
+        android:layout_height="411dp"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="300dp"
+            android:layout_height="260dp"
+            android:alpha="1"
+            android:contentDescription="App Logo"
+            android:src="@drawable/logo44" /> <!-- Starts hidden for animation -->
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:alpha="1"
+            android:fontFamily="@font/orbitron_extrabold"
+            android:text="LearnCodeX"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:textStyle="bold" /> <!-- Starts hidden for animation -->
+    </LinearLayout>
+
+</RelativeLayout>
